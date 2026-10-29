@@ -71,7 +71,7 @@ class MainActivity : ComponentActivity() {
             val text = txtJoke.text.toString()
             if (text.isNotEmpty()) {
                 viewModel.addToFavorites(text) // все ок
-                Toast.makeText(this, "Додано в улюблені", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Zu Favoriten hinzugefügt", Toast.LENGTH_SHORT).show()
             }
         }
 

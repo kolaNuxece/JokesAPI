@@ -61,7 +61,7 @@ class JokeViewModel(
                 val response = api.getRandomJoke()
                 _joke.value = response.value
             } catch (e: Exception) {
-                _joke.value = "Помилка: не вдалося завантажити жарт."
+                _joke.value = "Fehler: Witz konnte nicht geladen werden."
             }
         }
     }
